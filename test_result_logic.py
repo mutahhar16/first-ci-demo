@@ -1,4 +1,4 @@
-```python
+
 import unittest
 from result_logic import predict_result
 
@@ -23,4 +23,3 @@ class TestPredictResult(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-```
