@@ -6,7 +6,7 @@ from result_logic import predict_result
 class TestPredictResult(unittest.TestCase):
 
     def test_pass_result(self):
-        self.assertEqual(predict_result(70, 85), "FAIL")
+        self.assertEqual(predict_result(70, 85), "PASS")
 
     def test_fail_low_internal_marks(self):
         self.assertEqual(predict_result(30, 85), "FAIL")
